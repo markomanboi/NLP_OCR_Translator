@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lang" >
+        <item>Select</item>
+        <item>English</item>
+        <item>Tagalog</item>
+        <item>Spanish</item>
+        <item>German</item>
+        <item>French</item>
+        <item>Indonesian</item>
+        <item>Chinese</item>
+        <item>Japanese</item>
+    </string-array>
+
+</resources>

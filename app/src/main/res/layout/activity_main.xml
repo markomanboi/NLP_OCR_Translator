@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="5"
+    android:layout_marginTop="45dp"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@android:color/white">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:src="@drawable/gogle" />
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:layout_marginTop="30dp"
+        android:id="@+id/btnPic2"
+        android:layout_width="363dp"
+        android:layout_height="75dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="15dp"
+        android:onClick="justTranslate"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="10dp"
+        fancy:fb_borderColor="#FFFFFF"
+        fancy:fb_borderWidth="1dp"
+        fancy:fb_defaultColor="#4285F4"
+        fancy:fb_focusColor="#e74c3c"
+        fancy:fb_fontIconSize="30dp"
+        fancy:fb_iconPosition="top"
+        fancy:fb_radius="30dp"
+        fancy:fb_text="Just Translate"
+        fancy:fb_textColor="#FFFFFF"
+        fancy:fb_textSize="30dp">
+
+    </mehdi.sakout.fancybuttons.FancyButton>
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:layout_marginTop="25dp"
+        android:id="@+id/btnPic"
+        android:layout_width="363dp"
+        android:layout_height="75dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="15dp"
+        android:onClick="loadImagefromGallery"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="10dp"
+        fancy:fb_borderColor="#FFFFFF"
+        fancy:fb_borderWidth="1dp"
+        fancy:fb_defaultColor="#4285F4"
+        fancy:fb_focusColor="#e74c3c"
+        fancy:fb_fontIconSize="30dp"
+        fancy:fb_iconPosition="top"
+        fancy:fb_radius="30dp"
+        fancy:fb_text="Take Photo"
+        fancy:fb_textColor="#FFFFFF"
+        fancy:fb_textSize="30dp">
+
+    </mehdi.sakout.fancybuttons.FancyButton>
+
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:layout_marginTop="25dp"
+        android:id="@+id/btnPic3"
+        android:layout_width="363dp"
+        android:layout_height="75dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="15dp"
+        android:onClick="about"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="10dp"
+        fancy:fb_borderColor="#FFFFFF"
+        fancy:fb_borderWidth="1dp"
+        fancy:fb_defaultColor="#4285F4"
+        fancy:fb_focusColor="#e74c3c"
+        fancy:fb_fontIconSize="30dp"
+        fancy:fb_iconPosition="top"
+        fancy:fb_radius="30dp"
+        fancy:fb_text="About"
+        fancy:fb_textColor="#FFFFFF"
+        fancy:fb_textSize="30dp">
+
+    </mehdi.sakout.fancybuttons.FancyButton>
+</LinearLayout>

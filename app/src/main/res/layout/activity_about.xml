@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/btnBack3"
+            android:layout_width="29dp"
+            android:layout_height="37dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintBottom_toTopOf="@+id/viewPagerGlobalization"
+            app:srcCompat="?attr/homeAsUpIndicator" />
+        <ImageView
+            android:id="@+id/imageViewGlobe"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="50dp"
+            app:srcCompat="@drawable/gogle" />
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:text="About"
+            android:textColor="#2196F3"
+            android:textSize="35dp"
+            app:layout_constraintVertical_bias="0.0"
+            />
+
+        <TextView
+            android:id="@+id/abt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center_vertical"
+            android:justificationMode="inter_word"
+            android:text="GOGGLES Translator is an app which incorporates aspects of Natural Language Processing such as Image Processing, Language Detection and Translation, Text-to-Speech, as well as Sentimental Analysis. There are limitations to the image processing aspect of this app as it can only process LATIN-based languages such as English, French, German, etc. However, the translation feature of this app only currently supports English, Tagalog, Spanish, German, French, Indonesian, Chinese, and Japanese. The text-to-speech features only LATIN-based languages and not Chinese and Japanese."
+            android:textColor="#534E4E"
+            android:textSize="15dp"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/developer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:text="Developer"
+            android:textColor="#2196F3"
+            android:textSize="35dp"
+            app:layout_constraintVertical_bias="0.0"
+            />
+        <TextView
+            android:id="@+id/developer2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center_vertical"
+            android:justificationMode="inter_word"
+            android:text="This app was made by Mark Raphael Recio, Jiaan Ortillano, and Angelico Miguel Protacio as partial fulfillment of the course, Natural Language Processing, in CIIT College of Arts and Technology. "
+            android:textColor="#534E4E"
+            android:textSize="15dp"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/disclaimer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:text="Disclaimer"
+            android:textColor="#2196F3"
+            android:textSize="35dp"
+            app:layout_constraintVertical_bias="0.0"
+            />
+        <TextView
+            android:id="@+id/disclaimer2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center_vertical"
+            android:justificationMode="inter_word"
+            android:text="The developers do not take credit of the services used in this app. The language detection, translation, and text-to-speech all belong to Google and their respective products as these features were powered by the FIREBASE ML KIT. The sentimental analysis feature of this app is credited to IBM Watson Tone Analyzer."
+            android:textColor="#534E4E"
+            android:textSize="15dp"
+            app:layout_constraintVertical_bias="0.0" />
+
+    </LinearLayout>
+</ScrollView>
